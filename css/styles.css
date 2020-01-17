@@ -1,4 +1,4 @@
-#equilateral, #isosceles, #scalene, #notATriangle {
+#equilateral, #isosceles, #scalene, #notATriangle, .buttons {
     display: none;
 }
 body {
@@ -8,7 +8,15 @@ img {
     max-width: 100%;
     height: auto;
 }
-h1 {
+/* h1 {
     color: #000000;
     font-weight: 700 
-}
+} */
+.darkmode{
+    background-color: rgb(15, 14, 14);
+    color: antiquewhite;
+  }
+  .highlight {
+    background-color: purple;
+    color: white;
+    border: 5px solid black;

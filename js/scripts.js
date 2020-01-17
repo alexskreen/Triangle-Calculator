@@ -29,4 +29,15 @@ $(document).ready(function(){
         }
         event.preventDefault();
     });
+    $("button#lightmode").click(function() {
+        $("body").removeClass(); 
+        });
+        $("button#darkmode").click(function() {
+          $("body").addClass("darkmode");
+          event.preventDefault();
+
+        });
+        $("button#yesButton").click(function() {
+            $("body").addClass("darkmode");
+            event.preventDefault();
 });

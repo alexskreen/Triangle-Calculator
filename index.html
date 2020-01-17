@@ -11,16 +11,24 @@
     <div class="container">
       <div class="container">
         <h1>What kind of triangle do you have?</h1>
-          <div class="form-group">
-            <form id="triangleCalculator">
-              <label for="side1">Length of side 1:</label>
-              <input type="text" class="form-control" id="side1">
-              <label for="side2">Length of side 2</label>
-              <input type="text" class="form-control" id="side2">
-              <label for="side3">Length of side 3:</label>
-              <input type="text" class="form-control" id="side3">
-              <button class="submit btn btn-info">Submit!</button>
-            </form>
+          <div class="row">
+            <div class="form-group">
+              <form id="triangleCalculator">
+                <div class="col-md-4">
+                  <label for="side1">Length of side 1:</label>
+                  <input type="text" class="form-control" id="side1">
+                </div>
+                <div class="col-md-4">
+                  <label for="side2">Length of side 2</label>
+                  <input type="text" class="form-control" id="side2">
+                </div>
+                <div class="col-md-4">
+                  <label for="side3">Length of side 3:</label>
+                  <input type="text" class="form-control" id="side3">
+                </div>
+                <button class="submit btn btn-info">Submit!</button>
+              </form>
+            </div>
           </div>
       </div>
       <div id="equilateral">
@@ -42,6 +50,22 @@
         <h1>This isn't a triangle!</h1>
         <p>Something went wrong. The lengths that you provided don't make a triangle</p>
         <p><img src="https://qph.fs.quoracdn.net/main-qimg-727e72788cc759de0d719434b6bba920.webp" alt="Picture of an imcomplete triangle"></p>
+      </div>
+      <div class="row">
+      <div class="well col-md-4" id="question">
+        <p>Do you hate it when stupid background colors destroy your phone's battery life?</p>
+      </div>
+      </div>
+      <div id="yesButton">
+        <button class="btn" id="yesButton">Yeah!</button>
+      <div id="noButton">
+        <button class="btn" id="noButton">Nope!</button>
+      </div>
+      <div class="buttons">
+        <div id="darkmodeButtons">
+          <button class="btn btn-danger" id="lightmode">Light Mode</button>
+          <button class="btn btn-danger" id="darkmode">Dark Mode</button>
+        </div>
       </div>
     </div>
   </body>
